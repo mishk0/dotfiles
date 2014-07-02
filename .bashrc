@@ -1,1 +1,2 @@
 . ~/.dotfiles/.aliases
+. ~/.dotfiles/.colorful
