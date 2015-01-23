@@ -1,0 +1,9 @@
+[core]
+    editor = vim
+[color]
+    ui = always
+[user]
+	email = mishk0@yandex-team.ru
+	name = Mikhail Mokrushin
+[push]
+	default = simple
