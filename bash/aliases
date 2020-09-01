@@ -42,36 +42,6 @@ alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
 
 alias m='make'
 
-# alias mr='make LANGS=ru'
-function ml(){
-    if [[ ! $* ]]; then
-        make LANGS=ru
-    else
-        make LANGS="$*"
-    fi
-}
-
-# alias mn='make THEMES=blue PROJECTS="boot jane"'
-alias mna='make PROJECTS="boot jane"'
-function mn(){
-    if [[ ! $* ]]; then
-        make THEMES=blue PROJECTS="boot jane"
-    else
-        make THEMES="$*" PROJECTS="boot jane"
-    fi
-}
-
-# alias mm='make THEMES=blue PROJECTS=mail'
-alias mma='make PROJECTS=mail'
-function mm(){
-    if [[ ! $* ]]; then
-        make THEMES=blue PROJECTS=mail
-    else
-        make THEMES="$*" PROJECTS=mail
-    fi
-}
-
-# Vim
 alias v='vim -p'
 function vg(){
     ft=${2:-"*"}
